@@ -1,89 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfólio</title>
-  <link rel="stylesheet" href="portifolio.css">
+  <title>Meus Links</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  
-  <div class="particulas">
-    
-  </div>
-  
-  <nav class="navegacao">
-    <ul class="menu">
-      <li class="menu-link"><a href="#inicio">inicio</a></li>
-      <li class="menu-link"><a href="#sobre">sobre</a></li>
-      <li class="menu-link"><a href="#projetos">projetos</a></li>
-      <li class="menu-link"><a href="#contato">contato</a></li>
-    </ul>
-  </nav>
-  <main id="inicio" class="cabecalho">
-    <div class="fotoPerfil">
-      <img src="https://picsum.photos/200" alt="foto de Marcos"/>
-    </div>
-    <h1>Marco Antônio</h1>
-    <p class="paragrafoApresentacao">tentando aprender front end</p>
-  </main>
-  <section id="sobre" class="sobre">
-    <div id="sobre-caixa">
-      <h2 id="sobre-titulo">sobre mim</h2>
-      <p id="sobre-paragrafo">gosto muito de dinheiro, e qual e a melhor forma de se ganhar? simples, estudando e trabalhando, tem também a opção de virar YouTuber, porem não é pra mim</p>
-    </div>
-  </section>
-  <section id="projetos" class="projetos">
-    <h2 class="meus-projetos">meus projetos</h2>
-    <div id="projetos-caixa">
-      <div class="projeto-cards">
-        <img src="https://picsum.photos/200" alt="Foto-projeto" / class="projeto-imagem">
-        <div class="caixa-texto-projeto">
-          <h3 class="titulo-projeto">Quiz</h3>
-          <p class="paragrafo-projeto">teste seus conhecimentos nesse quiz de JavaScript, html, css e todos juntos</p>
-        </div>
-      </div>
-      
-      <div class="projeto-cards">
-        <img src="https://picsum.photos/200" alt="Foto-projeto" class="projeto-imagem" />
-        <div class="caixa-texto-projeto">
-          <h3 class="titulo-projeto">site de musica</h3>
-          <p class="paragrafo-projeto">crie playlists personalizadas, pide usar link para videos do YouTube e pode ver aqui em segundo plano e sem anúncios irritantes</p>
-        </div>
-      </div>
-      
-      <div class="projeto-cards">
-        <img src="https://picsum.photos/200" alt="Foto-projeto" class="projeto-imagem" />
-        <div class="caixa-texto-projeto">
-          <h3 class="titulo-projeto">visualizador de dados</h3>
-          <p class="paragrafo-projeto">descubra o que esta em alta nesse momento, ou não, vai que você é so alguem curioso mesmo</p>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  
-  <section id="contato" class="contatos">
-    <h2 class="contatos-titulo">contatos</h2>
-    <form class="formulario-contato" id="formulario">
-      
-      <div class="grupo-form">
-        <input placeholder="nome" class="campo-forms" />
-      </div>
-      
-      <div class="grupo-form">
-        <textarea class="campo-forms" placeholder="digite sua mensagem"></textarea>
-      </div>
-      
-      <button type="submit" class="botao-form">enviar</button>
-    </form>
-  </section>
-  
-  
-  <script src="portifolio.js"></script>
-</body>
+  <header>
+    <h1>🌐 Meus Links</h1>
+  </header>
 
+  <main>
+    <div id="links-container" class="links-grid">
+      <!-- Os links serão carregados via JS -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por mim</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
